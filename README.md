@@ -10,7 +10,7 @@ Clone this repository into Codex's personal skills folder:
 git clone https://github.com/9929y/yanice-case-study-illustrations.git ~/.codex/skills/mesh
 ```
 
-Replace `9929y` with the GitHub account that owns this repository. Restart or reload Codex if the skill does not appear right away. In Codex, invoke it with `$mesh`, or choose **Yanice Case Study Illustrations** from the skill picker. Codex skills use the `$` skill mention syntax; `/mesh` is not the skill invocation syntax.
+Restart or reload Codex if the skill does not appear right away. In Codex, invoke it with `$mesh`, or choose **Yanice Case Study Illustrations** from the skill picker.
 
 To install it for one project only, clone it into that project's `.agents/skills/mesh` folder:
 
@@ -22,9 +22,9 @@ Then open that project in Codex and invoke `$mesh`.
 
 ## Use in ChatGPT
 
-Cloning a repository does not automatically install a ChatGPT skill. Download the repository as a ZIP, then use **Skills → Create → Upload from your computer** if Skills are enabled for your account or workspace. A workspace administrator can also import it through a GitHub plugin marketplace, which requires a plugin package and workspace-admin access.
+Cloning a repository does not automatically install a ChatGPT skill. On GitHub, select **Code → Download ZIP**, then use **Skills → Create → Upload from your computer** if Skills are enabled for your account or workspace. After importing, select the skill with `@mesh`. ChatGPT's skill availability and image-generation features depend on the account and workspace settings.
 
-After installation, request the image and name its case-study page, placement, and type. For example: “Use `$mesh` to create a wide process illustration for the Lark onboarding case study. Preserve the real sequence and handoffs.” The skill guides the workflow; actual generation uses the image-generation capability available in the active product.
+The skill guides the workflow; actual image generation uses the image-generation capability available in the active product.
 
 ## What's included
 
